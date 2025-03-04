@@ -14,12 +14,12 @@ module.exports = {
   test: {
     username: 'root',
     password: null,
-    database: 'AutosBackend',
+    database: '',
     host: '127.0.0.1',
     dialect: 'mysql',
   },
   production: {
-    use_env_variable: 'postgresql://flutterAu_owner:npg_LUW3xgAKds7r@ep-wispy-bar-a5oocbpq-pooler.us-east-2.aws.neon.tech/flutterAu?sslmode=require',
+    use_env_variable: '',
     dialect: 'postgres',
     dialectOptions: {
       ssl: {
